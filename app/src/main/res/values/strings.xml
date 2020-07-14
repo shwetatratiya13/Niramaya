@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pharma360</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="facebook_application_id" translatable="false">3092805484068657</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb3092805484068657</string>
+</resources>

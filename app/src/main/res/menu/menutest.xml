@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grpAcc"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/optnAcc"
+            android:icon="@drawable/myacc"
+            android:title="My account"></item>
+        <item
+            android:id="@+id/optnOrdr"
+            android:icon="@drawable/ic_addcart"
+            android:title="My orders"></item>
+    </group>
+
+    <group
+        android:id="@+id/grpExplore"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/optnHome"
+            android:icon="@drawable/ic_home"
+            android:title="Home"></item>
+        <item
+            android:id="@+id/optnUpload"
+            android:icon="@drawable/ic_prescription"
+            android:title="Upload Rx"></item>
+        <item
+            android:id="@+id/optnLocation"
+            android:icon="@drawable/ic_location"
+            android:title="Nearby stores"></item>
+        <item
+            android:id="@+id/optnPillRem"
+            android:icon="@drawable/ic_access_alarm"
+            android:title="Pill Reminder"></item>
+        <item
+            android:id="@+id/optnHlib"
+            android:icon="@drawable/ic_library"
+            android:title="Health Library"></item>
+
+    </group>
+    <item
+        android:id="@+id/optnLogout"
+        android:icon="@drawable/ic_login"
+        android:title="Logout"></item>
+
+</menu>
